@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Thân giỏ -->
+    <path
+        android:fillColor="#EE4D2D"
+        android:pathData="M12,10 L16,10 L19,22 L38,22 L42,12 L18,12 L16,8 L8,8 L8,10 L12,10 Z" />
+
+    <!-- Tay cầm -->
+    <path
+        android:fillColor="#EE4D2D"
+        android:pathData="M8,8 L16,8 L17,10 L9,10 Z" />
+
+    <!-- Bánh xe trái -->
+    <path
+        android:fillColor="#EE4D2D"
+        android:pathData="M18,30a4,4 0 1,0 0.01,0Z" />
+
+    <!-- Bánh xe phải -->
+    <path
+        android:fillColor="#EE4D2D"
+        android:pathData="M34,30a4,4 0 1,0 0.01,0Z" />
+    <!-- Thanh nối từ giỏ xuống bánh xe trái -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,22 L22,22 L22,30 L20,30 Z" />
+
+    <!-- Thanh nối từ giỏ xuống bánh xe phải -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,22 L32,22 L32,30 L30,30 Z" />
+
+
+    <!-- Các ô rỗng trong giỏ (hình vuông nhỏ) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M21,14h4v4h-4z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M27,14h4v4h-4z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M21,20h4v4h-4z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M27,20h4v4h-4z" />
+
+</vector>

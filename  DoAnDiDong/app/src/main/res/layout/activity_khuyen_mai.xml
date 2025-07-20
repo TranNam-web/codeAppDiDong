@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.KhuyenMaiActivity">
+
+    <!-- Ảnh khuyến mãi -->
+    <ImageView
+        android:id="@+id/km_image"
+        android:layout_width="0dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Ảnh khuyến mãi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp" />
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/km_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ƯU ĐÃI HOT NHẤT MÙA HÈ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#E53935"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp"
+        app:layout_constraintTop_toBottomOf="@id/km_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Nội dung -->
+    <TextView
+        android:id="@+id/km_noidung"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Giảm giá lên tới 30% cho laptop và điện thoại. Mua hàng ngay hôm nay để nhận quà tặng hấp dẫn!"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:lineSpacingExtra="4dp"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/km_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

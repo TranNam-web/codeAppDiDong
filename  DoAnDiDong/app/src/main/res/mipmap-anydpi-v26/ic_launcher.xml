@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Nền đơn giản, nên là màu hoặc ảnh nền -->
+    <background android:drawable="@drawable/ngoc" />
+
+    <!-- Ảnh avatar/logo app (nên ở giữa, có khoảng trống) -->
+    <foreground android:drawable="@drawable/muahang" />
+
+    <!-- (Không bắt buộc) icon đơn sắc cho chế độ đơn sắc -->
+    <monochrome android:drawable="@drawable/ngoc" />
+</adaptive-icon>

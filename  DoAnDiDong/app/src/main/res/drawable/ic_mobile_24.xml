@@ -1,0 +1,54 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Vỏ ngoài điện thoại -->
+    <path
+        android:fillColor="#D9D9D9"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.8"
+        android:pathData="M4,1h16a3,3 0 0 1 3,3v16a3,3 0 0 1 -3,3H4a3,3 0 0 1 -3,-3V4a3,3 0 0 1 3,-3z" />
+
+    <!-- Loa thoại -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M6,2.3h12a0.4,0.4 0 0 1 0,0.8H6a0.4,0.4 0 0 1 0,-0.8z" />
+
+    <!-- Camera -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M18.5,3.2a0.5,0.5 0 1 1 1,0a0.5,0.5 0 1 1 -1,0z" />
+
+    <!-- Màn hình bên trong -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M5,5h14v14H5z" />
+
+    <!-- Thanh địa chỉ trắng -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M5,5h14v2H5z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M5.4,5.4h1.6v1.2H5.4z" />
+
+    <!-- Ô nội dung lớn -->
+    <path
+        android:fillColor="#B2EBF2"
+        android:strokeColor="#000000"
+        android:strokeWidth="0.4"
+        android:pathData="M7,7.5h10v2.5H7z" />
+
+    <!-- Các dòng nội dung -->
+    <path android:fillColor="#333333" android:pathData="M6.5,10.5h11a0.4,0.4 0 0 1 0,0.8h-11a0.4,0.4 0 0 1 0,-0.8z"/>
+    <path android:fillColor="#333333" android:pathData="M6.5,12h11a0.4,0.4 0 0 1 0,0.8h-11a0.4,0.4 0 0 1 0,-0.8z"/>
+    <path android:fillColor="#333333" android:pathData="M6.5,13.5h11a0.4,0.4 0 0 1 0,0.8h-11a0.4,0.4 0 0 1 0,-0.8z"/>
+    <path android:fillColor="#333333" android:pathData="M6.5,15h11a0.4,0.4 0 0 1 0,0.8h-11a0.4,0.4 0 0 1 0,-0.8z"/>
+
+    <!-- Nút home -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M11.5,19.5a1,1 0 1 1 1,0a1,1 0 1 1 -1,0z" />
+</vector>

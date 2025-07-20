@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Nền xanh lá có góc bo tròn -->
+    <path
+        android:fillColor="#050505"
+        android:pathData="M4,0h40a4,4 0 0 1 4,4v40a4,4 0 0 1 -4,4h-40a4,4 0 0 1 -4,-4v-40a4,4 0 0 1 4,-4z" />
+
+    <!-- Bong bóng trắng bo tròn và có đuôi -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M24,12c-6.63,0 -12,4.03 -12,9 0,2.49 1.49,4.71 3.84,6.26 -0.24,0.82 -0.88,2.25 -2.62,3.65 0,0 2.94,-0.28 5.01,-1.9 1.67,0.56 3.49,0.88 5.77,0.88 6.63,0 12,-4.03 12,-9s-5.37,-9 -12,-9z" />
+</vector>

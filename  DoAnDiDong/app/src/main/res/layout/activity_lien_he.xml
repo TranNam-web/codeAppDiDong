@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Tiêu đề -->
+        <TextView
+            android:text="📞 Liên Hệ Ngay Với Chúng Tôi!"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Card thông tin -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:backgroundTint="#1E1E1E">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:text="📱 Số điện thoại: 0865 063 204"
+                    android:textSize="16sp"
+                    android:textColor="#FF4081"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:text="📧 Email: lienhe@tranamstore.com"
+                    android:textSize="16sp"
+                    android:textColor="#FF4081"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:text="💬 Zalo hỗ trợ: 0901 234 567"
+                    android:textSize="16sp"
+                    android:textColor="#FF4081"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:text="🌐 Website: www.tranamstore.com"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF4081" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- QR Zalo -->
+        <TextView
+            android:text="📷 Quét mã Zalo để chat trực tiếp:"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#BBBBBB"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/qrZalo"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/zalo_qr"
+            android:contentDescription="QR Zalo" />
+
+        <!-- Gợi ý -->
+        <TextView
+            android:text="✨ Đội ngũ Trần Nam luôn sẵn sàng hỗ trợ bạn 24/7 ✨"
+            android:textSize="14sp"
+            android:textColor="#A0A0A0"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

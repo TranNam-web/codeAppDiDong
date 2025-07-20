@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="4dp">
+
+    <!-- Avatar người gửi -->
+    <ImageView
+        android:id="@+id/avatar_sender"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ngoc"
+    android:scaleType="centerCrop"
+    android:background="@drawable/avatar_circle_background"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Nội dung tin nhắn nhận -->
+    <TextView
+        android:id="@+id/txtmessreceid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="Nội dung chat"
+        android:background="@drawable/back_sendmess"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:backgroundTint="#8BC34A"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintStart_toEndOf="@id/avatar_sender"
+        app:layout_constraintTop_toTopOf="@id/avatar_sender"
+        app:layout_constraintWidth_percent="0.7" />
+
+    <!-- Thời gian gửi -->
+    <TextView
+        android:id="@+id/txttimereceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian"
+        android:textSize="11sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/txtmessreceid"
+        app:layout_constraintStart_toStartOf="@id/txtmessreceid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

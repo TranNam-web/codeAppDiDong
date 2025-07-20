@@ -1,0 +1,5 @@
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/minn_wrapper" />
+    <foreground android:drawable="@drawable/minn_wrapper" />
+    <monochrome android:drawable="@drawable/minn_wrapper" />
+</adaptive-icon>
